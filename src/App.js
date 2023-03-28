@@ -56,10 +56,10 @@ function App() {
 
     <Scroll html style={{width: '100%'}}>
       
-    <Container style={{position: 'relative'}}>
+    <Container style={{position: 'relative'}} >
       <Row className='text-center align-items-center justify-content-center' style={{position: 'absolute', width: '100%', height: '100vh', padding: '0px 30px'}}>
         <Col xs={6}>
-          <div>
+          <div id="title">
             <h1 style={{marginBottom: '0px'}}>Peter Sidlauskas</h1><h2>Web Developer</h2>
           </div>
         </Col>
@@ -67,14 +67,14 @@ function App() {
       <Row className='text-center align-items-center justify-content-center' style={{position: 'absolute', width: '100%', height: '100vh', padding: '0px 30px', top: '100vh'}}>
         <Col xs={6}>
           <div>
-            <h1 style={{marginBottom: '0px'}}>About Me</h1><h2>I am an Entrepreneur/Video Editor turned Web Developer located in New York City</h2>
+            <h1 style={{marginBottom: '0px'}}>About Me</h1><h2>I am an Entrepreneur, Video Editor turned Web Developer located in New York City</h2>
           </div>
         </Col>
       </Row>
       <Row className='text-center align-items-center justify-content-center' style={{position: 'absolute', width: '100%', height: '100vh', padding: '0px 30px', top: '200vh'}}>
         <Col xs={6}>
           <div>
-            <h1 style={{marginBottom: '0px'}}>Skills</h1> <div style={{display: 'flex'}}><img src={html} /> <img src={css} /> <img src={javascript} /> <img src={logo} /> <img src={node} /> <img src={python} /></div>
+            <h1 style={{marginBottom: '0px'}}>Skills</h1> <div id="skills"> <img src={html} /><img src={css} /><img src={javascript} /> <img src={logo} /><img src={node} /><img src={python} /></div>
           </div>
         </Col>
       </Row>

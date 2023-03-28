@@ -57,6 +57,7 @@ h1,h2,h3,h4,h5 {
   h1 {
     color: #000080 !important;
     font-size: 60px !important;
+   
   }
   
   h2 {
@@ -75,3 +76,38 @@ h1,h2,h3,h4,h5 {
     text-decoration: none;
     color: #FFFFFF;
   }
+
+  #skills {
+    justify-content: center !important;
+    display: flex !important;
+    margin: auto !important;
+    
+    
+  }
+
+  #title {
+    text-align: center;
+    margin: auto;
+  }
+
+ @media (min-width: 380px) and (max-width: 768px) {
+    h1 {
+      display: flex !important;
+      justify-content: center !important;
+    }
+
+    h2 {
+      display: flex !important;
+      justify-content: center !important;
+    }
+
+    #skills {
+      display: flex !important;
+      flex-flow: row wrap;
+    }
+
+    a {
+      font-size: 30px;
+    }
+  }
+
