@@ -56,10 +56,10 @@ function App() {
 
     <Scroll html style={{width: '100%'}}>
       
-    <Container style={{position: 'relative'}}>
+    <Container style={{position: 'relative'}} >
       <Row className='text-center align-items-center justify-content-center' style={{position: 'absolute', width: '100%', height: '100vh', padding: '0px 30px'}}>
         <Col xs={6}>
-          <div>
+          <div id="title">
             <h1 style={{marginBottom: '0px'}}>Peter Sidlauskas</h1><h2>Web Developer</h2>
           </div>
         </Col>
@@ -67,7 +67,7 @@ function App() {
       <Row className='text-center align-items-center justify-content-center' style={{position: 'absolute', width: '100%', height: '100vh', padding: '0px 30px', top: '100vh'}}>
         <Col xs={6}>
           <div>
-            <h1 style={{marginBottom: '0px'}}>About Me</h1><h3>I am a Film/Video Editor turned Web Developer located in New York City. When I'm not coding I'm running and operating my own apparel brand that has been in business for over 10 years</h3>
+            <h1 style={{marginBottom: '0px'}}>About Me</h1><h2>I am an Entrepreneur/Video Editor turned Web Developer located in New York City</h2>
           </div>
         </Col>
       </Row>
