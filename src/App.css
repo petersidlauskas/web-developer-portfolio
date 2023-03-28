@@ -50,7 +50,7 @@ header::before {
 
 h1,h2,h3,h4,h5 {
     font-family: 'DM Serif Display', serif;
-    color: #fff;
+    color: #4B9CD3;
     margin-bottom: 32px !important;
   }
 
@@ -62,7 +62,9 @@ h1,h2,h3,h4,h5 {
   
   h2 {
     font-size: 40px !important;
+    
   }
+
   
   p {
     font-family: 'Roboto', sans-serif;
@@ -74,7 +76,7 @@ h1,h2,h3,h4,h5 {
 
   h2 a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #4B9CD3;
   }
 
   #skills {
@@ -89,6 +91,7 @@ h1,h2,h3,h4,h5 {
     text-align: center;
     margin: auto;
   }
+
 
  @media (min-width: 380px) and (max-width: 768px) {
     h1 {
